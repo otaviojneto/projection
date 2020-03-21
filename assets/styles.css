@@ -193,55 +193,46 @@ body {
 
 .forms  {
     padding: 96px 0 ;
-    height: 100vh;
     background-color: #6cc091;
     color: #fff;
-    text-align: center;
 }
 
-.forms .row .font{
+.forms .forms-title {
+    display: block;
     font-size: 28px;
     font-weight: 400;
     line-height: 1.5;
     margin: 0 0 16px 0;
+    text-align: center;
 }
 
-.forms .row .text-form {
-    text-align: left;
-    display: block;
-    font-size: 16px;
+.forms .box-input {
     font-weight: 600;
-    margin: 0 0 16px 0;
+    margin-bottom: 20px;
+    display: block;
 
 }
 
-.forms .row .form {
-    display: inline-block;
-    width: 48%;
-}
-
-.forms .row .form .box {
-    background: transparent;
+.forms .box-input .input-form {
+    display: block;
+    width: 100%;
+    background-color: transparent;
     border: 2px solid #8dcca9;
-    color: #fff;
     border-radius: 10px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    display: table;
-    margin: 0 auto;
-    margin-top: 64px;
-    font-size: 14px;
-    text-transform: capitalize;
-    width: 200%;
-    padding: 10px;
-    margin: 0 0 50px;
+    font-size: 16px;
+    padding: 8px 18px;
+    outline: none; /* tira o azul da marcação quando passa o mouse*/
 }
 
-.forms .row .form  .form-form {
-    display: table-cell;
+
+
+.forms .box-input .input-form::placeholder{
+    color: #fff;
 }
 
-.forms .row .button {
+
+
+.forms .container .button {
     background: transparent;
     padding: 10px 42px;
     border: 3px solid #fff;
@@ -256,6 +247,15 @@ body {
     text-transform: uppercase;
 }
 
+.copyright {
+    color: #fff;
+    font-size: 12px;
+    margin: 0 0 32px 0;
+    padding: 30px;
+}
+    
+
+}
 
 
 

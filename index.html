@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estrutura</title>
+    <title>Projection</title>
 
     <link rel="stylesheet" href="./assets/grid.css">
     <link rel="stylesheet" href="./assets/styles.css">
@@ -100,30 +100,39 @@
 
     <!-- Forms -->
     <div class="forms">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="font">Get in touch</h3>
-            </div>
-            <form class="form" action="#" method="POST">
-                <div class="col-6 form-form">
-                    <label class="text-form" for="Name">Name</label>
-                    <input class="box" type="text" name="Nome" placeholder="Name">
-                </div>
-                <div class="col-6 form-form">
-                    <label class="text-form" for="Email">Email</label>
-                    <input class="box" type="email" name="email" placeholder="Email">
-                </div>
-                <div class="col-12">
-                    <label class="text-form" for="Message">Message</label>
-                    <textarea class="box"  name="message" cols="6" rows="6" placeholder="message"></textarea>
+        <div class="container">
+            <h3 class="forms-title">Get in touch</h3>
+
+            <form action="#" method="POST">
+                <div class="row">
+                    <div class="col-6 ">
+                        <div class="box-input">
+                            <label class="label-form" for="name">Name</label>
+                            <input class="input-form" type="text" id="Nome" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="col-6 ">
+                        <div class="box-input">
+                            <label class="label-form" for="Email">Email</label>
+                            <input class="input-form" type="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="box-input">
+                            <label class="label-form" for="Message">Message</label>
+                            <textarea class="input-form" id="message" cols="6" rows="6"
+                            placeholder="message"></textarea>
+                        </div>
+                    </div>
                 </div>
             </form>
             <div class="col-12">
-                <a href="#" class="button"> send message</a>
+                <button href="#" class="button"> send message</a>
             </div>
         </div>
+        <center><p class="copyright">© Untitled. Design: TEMPLATED. Images: Unsplash.</p></center>
     </div>
-
+            
     <!-- Footer  -->
 
 
