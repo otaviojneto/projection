@@ -213,6 +213,12 @@ body {
 
 }
 
+.forms .box-input .label-form{
+    font-weight: 600;
+    margin-bottom: 18px;
+    display: block;
+}
+
 .forms .box-input .input-form {
     display: block;
     width: 100%;
